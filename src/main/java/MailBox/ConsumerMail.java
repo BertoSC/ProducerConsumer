@@ -11,18 +11,14 @@ public class ConsumerMail implements Runnable{
     @Override
     public void run() {
         Random rm = new Random();
-        int contador=1;
         while (true){
             String val= mailBox.getMsn();
             System.out.println("Soy "+Thread.currentThread().getName()+"y he recogido el mensaje: "+val);
-            contador++;
+
             try {
                 Thread.sleep(rm.nextInt(0,100));
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
-            }
-            if (contador==51){
-                break;
             }
 
         }
