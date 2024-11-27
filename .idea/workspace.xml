@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1998d857-049d-4fbc-893b-ebacc5c6fb9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patronconsumerproducer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejMailbox.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MailBox/ConsumerMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MailBox/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MailBox/MailBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MailBox/ProducerMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LaunchProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MailBox/ConsumerMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MailBox/ConsumerMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MailBox/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MailBox/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MailBox/ProducerMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MailBox/ProducerMail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2pNlCb0tZc2b3I0gcLe2B8BNayq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +41,7 @@
   "keyToString": {
     "Application.LaunchProducerConsumer.executor": "Run",
     "Application.Launcher.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",

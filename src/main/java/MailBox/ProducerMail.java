@@ -12,20 +12,18 @@ public class ProducerMail implements Runnable{
     @Override
     public void run() {
         Random rm = new Random();
-        int contador=1;
+
         while(true){
-            String msn= "Mensaje random número: "+contador;
-            System.out.println(msn);
+            String msn= "Mensaje random número: "+rm.nextInt(1, 1000);
+            System.out.println("Soy "+Thread.currentThread().getName()+"y he generado el "+msn);
             mailBox.putMsn(msn);
-            contador++;
+
             try {
                 Thread.sleep(rm.nextInt(0, 100));
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            if (contador == 51){
-                break;
-            }
+
         }
     }
 }

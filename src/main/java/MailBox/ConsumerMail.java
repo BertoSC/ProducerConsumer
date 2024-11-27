@@ -14,7 +14,7 @@ public class ConsumerMail implements Runnable{
         int contador=1;
         while (true){
             String val= mailBox.getMsn();
-            System.out.println("He recogido el mensaje: "+val);
+            System.out.println("Soy "+Thread.currentThread().getName()+"y he recogido el mensaje: "+val);
             contador++;
             try {
                 Thread.sleep(rm.nextInt(0,100));
